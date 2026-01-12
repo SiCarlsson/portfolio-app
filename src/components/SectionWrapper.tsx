@@ -4,7 +4,7 @@ interface SectionProps {
   className?: string;
 }
 
-const Section = ({ children, id, className }: SectionProps) => {
+const SectionWrapper = ({ children, id, className }: SectionProps) => {
   return (
     <section id={id} className={`h-screen snap-start snap-always p-6 ${className}`}>
       {children}
@@ -12,4 +12,4 @@ const Section = ({ children, id, className }: SectionProps) => {
   )
 }
 
-export default Section
+export default SectionWrapper

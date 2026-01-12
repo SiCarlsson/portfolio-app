@@ -1,10 +1,10 @@
-import Section from "../Section"
+import SectionWrapper from "../SectionWrapper"
 
 const Projects = () => {
   return (
-    <Section id="projects" className="bg-red-500">
+    <SectionWrapper id="projects" className="bg-red-500">
       <h1>Projects Content</h1>
-    </Section>
+    </SectionWrapper>
   )
 }
 
