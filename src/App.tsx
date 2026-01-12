@@ -5,12 +5,12 @@ import Projects from "./components/sections/Projects"
 
 const App = () => {
   return (
-    <>
+    <div className="h-screen overflow-y-scroll snap-y snap-mandatory">
       <Hero />
       <About />
       <Projects />
       <Contact />
-    </>
+    </div>
   )
 }
 

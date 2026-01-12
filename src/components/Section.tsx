@@ -6,7 +6,7 @@ interface SectionProps {
 
 const Section = ({ children, id, className }: SectionProps) => {
   return (
-    <section id={id} className={`h-screen p-6 ${className}`}>
+    <section id={id} className={`h-screen snap-start snap-always p-6 ${className}`}>
       {children}
     </section>
   )
