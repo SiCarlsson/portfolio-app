@@ -13,8 +13,10 @@ const Button = ({ children, href, className = '' }: ButtonProps) => {
     }
   };
 
+  const style = "font-semibold underline underline-offset-4"
+
   return (
-    <a href={href} onClick={handleClick} className={className}>
+    <a href={href} onClick={handleClick} className={`${style} ${className}`}>
       {children}
     </a>
   );
