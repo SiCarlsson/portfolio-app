@@ -14,6 +14,8 @@ const Button = ({ children, href, className = '' }: ButtonProps) => {
   };
 
   const isExternal = href && !href.startsWith('#') && !href.startsWith('/');
+  const isPdf = href?.endsWith('.pdf');
+  const openInNewTab = isExternal || isPdf;
   const style = "font-semibold underline underline-offset-4"
 
   return (
@@ -21,8 +23,8 @@ const Button = ({ children, href, className = '' }: ButtonProps) => {
       href={href} 
       onClick={handleClick} 
       className={`${style} ${className}`}
-      target={isExternal ? "_blank" : undefined}
-      rel={isExternal ? "noopener noreferrer" : undefined}
+      target={openInNewTab ? "_blank" : undefined}
+      rel={openInNewTab ? "noopener noreferrer" : undefined}
     >
       {children}
     </a>

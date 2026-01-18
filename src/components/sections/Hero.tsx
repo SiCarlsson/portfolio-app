@@ -19,8 +19,8 @@ const Hero = () => {
         <Button href="#projects" className="w-20 text-center">
           Projects
         </Button>
-        <Button href="#contact" className="w-20 text-center">
-          Contact
+        <Button href="/CV_SimonCarlsson.pdf" className="w-20 text-center">
+          Resume
         </Button>
       </footer>
     </SectionWrapper>
