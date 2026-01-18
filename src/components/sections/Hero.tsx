@@ -23,7 +23,6 @@ const Hero = () => {
           Contact
         </Button>
       </footer>
-
     </SectionWrapper>
   )
 }

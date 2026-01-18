@@ -34,7 +34,7 @@ const TechStacks = ({ className }: TechStacksProps) => {
     <div className={`flex flex-wrap items-center justify-center ${className}`}>
       {TECH_STACK.map((tech) => (
         <div key={tech.label} className="flex flex-col items-center m-[2vw] text-gray-700">
-          <FontAwesomeIcon icon={tech.icon} className="text-3xl" />
+          <FontAwesomeIcon icon={tech.icon} className="text-2xl" />
           <span className="text-sm">{tech.label}</span>
         </div>
       ))}
