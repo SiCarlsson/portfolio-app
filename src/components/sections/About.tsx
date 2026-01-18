@@ -14,7 +14,7 @@ const About = () => {
             className="w-[22vh] h-[22vh] mx-auto mt-[2vh]"
             objectPosition="center 20%"
           />
-          <h2 className="text-3xl font-bold text-center mt-[1vh] mb-[-1vh]">
+          <h2 className="text-3xl font-bold text-center mt-[1vh] mb-[1vh]">
             About Me
           </h2>
 
