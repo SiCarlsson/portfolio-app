@@ -6,7 +6,7 @@ interface SectionProps {
 
 const SectionWrapper = ({ children, id, className }: SectionProps) => {
   return (
-    <section id={id} className={`h-screen snap-start snap-always px-6 ${className}`}>
+    <section id={id} className={`h-screen snap-start snap-always p-[2vh] ${className}`}>
       {children}
     </section>
   )

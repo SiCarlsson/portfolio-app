@@ -11,6 +11,7 @@ const Hero = () => {
       </div>
 
       <ScrollArrow href="#about" className="text-gray-600" />
+      
       <footer className="flex justify-center gap-8 mb-8">
         <Button href="#about" className="w-20 text-center">
           About
