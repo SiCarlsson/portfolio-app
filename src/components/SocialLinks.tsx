@@ -1,3 +1,4 @@
+import Button from "./Button"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons"
@@ -14,17 +15,14 @@ interface socialLinksProps {
 
 const SocialLinks = ({ className }: socialLinksProps) => {
   return (
-    <div className={`flex items-center justify-evenly ${className}`}>
+    <div className={`flex items-center justify-center gap-8 ${className}`}>
       {SOCIAL_LINKS.map((link) => (
-        <a
+        <Button
           key={link.label}
           href={link.href}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-xl"
         >
           <FontAwesomeIcon icon={link.icon} /> {link.label}
-        </a>
+        </Button>
       ))}
     </div>
   )

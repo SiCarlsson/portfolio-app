@@ -10,9 +10,9 @@ const Hero = () => {
         <h3 className="text-2xl mt-[1vh] text-gray-500 font-light">Computer engineering student passionate about data and automation.</h3>
       </div>
 
-      <ScrollArrow href="#about" className="text-gray-600" />
-      
-      <footer className="flex justify-center gap-8 mb-8">
+      <ScrollArrow href="#about" />
+
+      <footer className="flex justify-center gap-8 mb-[3vh]">
         <Button href="#about" className="w-20 text-center">
           About
         </Button>

@@ -13,10 +13,17 @@ const Button = ({ children, href, className = '' }: ButtonProps) => {
     }
   };
 
+  const isExternal = href && !href.startsWith('#') && !href.startsWith('/');
   const style = "font-semibold underline underline-offset-4"
 
   return (
-    <a href={href} onClick={handleClick} className={`${style} ${className}`}>
+    <a 
+      href={href} 
+      onClick={handleClick} 
+      className={`${style} ${className}`}
+      target={isExternal ? "_blank" : undefined}
+      rel={isExternal ? "noopener noreferrer" : undefined}
+    >
       {children}
     </a>
   );

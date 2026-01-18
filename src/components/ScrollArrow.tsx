@@ -12,7 +12,7 @@ const ScrollArrow = ({ href, className }: ScrollArrowProps) => {
   return (
     <a
       href={href}
-      className={`mx-auto mb-[6vh] animate-bounce cursor-pointer text-gray-400 hover:text-gray-600 ${className}`}
+      className={`mx-auto mb-[6vh] animate-bounce cursor-pointer text-gray-600 hover:text-gray-600 ${className}`}
       onClick={handleClick}
     >
       <svg
