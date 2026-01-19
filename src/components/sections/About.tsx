@@ -17,7 +17,9 @@ const About = () => {
           <h2 className="text-3xl font-bold text-center mt-[1vh] mb-[1vh]">
             About Me
           </h2>
+        </div>
 
+        <div className="flex flex-col justify-between flex-1">
           <section className="w-[90%] mx-auto">
             <h3 className="text-xl mt-[1vh] text-gray-500 font-light text-center">Background</h3>
             <p className="max-w-3xl mx-auto mt-[0.5vh] text-sm text-justify text-gray-700">
@@ -25,15 +27,15 @@ const About = () => {
             </p>
           </section>
 
-          <section className="w-[90%] mx-auto mt-[4vh]">
+          <section className="w-[90%] mx-auto mt-[-2vh]">
             <h3 className="text-xl mt-[1vh] text-gray-500 font-light text-center">Tech Stack</h3>
             <TechStacks className="mt-[0.5vh]" />
           </section>
-        </div>
 
-        <footer className="mt-auto mb-[3vh]">
-          <SocialLinks />
-        </footer>
+          <footer className="mb-[3vh]">
+            <SocialLinks />
+          </footer>
+        </div>
       </div>
     </SectionWrapper>
   )
