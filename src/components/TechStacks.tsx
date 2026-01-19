@@ -4,12 +4,17 @@ import { faJava } from "@fortawesome/free-brands-svg-icons"
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core"
 import {
   SiPython,
-  SiSharp,
   SiPostgresql,
   SiReact,
   SiTypescript,
   SiGooglecloud,
   SiTailwindcss,
+  SiGnubash,
+  SiAnsible,
+  SiDocker,
+  SiTerraform,
+  SiProxmox,
+  SiJavascript,
 } from "react-icons/si"
 
 interface TechStacksProps {
@@ -21,22 +26,29 @@ export const TECH_ICON_MAP: Record<string, React.ComponentType<{ size?: number }
   "React": SiReact,
   "TypeScript": SiTypescript,
   "Tailwind": SiTailwindcss,
+  "JavaScript": SiJavascript,
   "Python": SiPython,
   "Java": faJava,
-  "C#": SiSharp,
   "PostgreSQL": SiPostgresql,
   "Google Cloud": SiGooglecloud,
+  "Bash": SiGnubash,
+  "Ansible": SiAnsible,
+  "Docker": SiDocker,
+  "Terraform": SiTerraform,
+  "Proxmox": SiProxmox,
 }
 
 const DEFAULT_TECH_STACK = [
   "React",
+  "JavaScript",
   "TypeScript",
   "Tailwind",
   "Python",
   "Java",
-  "C#",
   "PostgreSQL",
-  "Google Cloud",
+  "Docker",
+  "Ansible",
+  "Terraform",
 ]
 
 const TechStacks = ({ technologies = DEFAULT_TECH_STACK, className }: TechStacksProps) => {
@@ -45,7 +57,7 @@ const TechStacks = ({ technologies = DEFAULT_TECH_STACK, className }: TechStacks
       {technologies.map((tech) => {
         const icon = TECH_ICON_MAP[tech]
         if (!icon) return null
-        
+
         const isFontAwesome = 'iconName' in (icon as any)
         return (
           <div key={tech} className="flex flex-col items-center m-[2vw] text-gray-700">

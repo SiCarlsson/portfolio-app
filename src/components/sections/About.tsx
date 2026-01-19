@@ -22,13 +22,13 @@ const About = () => {
         <div className="flex flex-col justify-between flex-1">
           <section className="w-[90%] mx-auto">
             <h3 className="text-xl mt-[1vh] text-gray-500 font-light text-center">Background</h3>
-            <p className="max-w-3xl mx-auto mt-[0.5vh] text-sm text-justify text-gray-700">
+            <p className="mx-auto mt-[0.5vh] text-sm text-justify text-gray-700">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </section>
 
           <section className="w-[90%] mx-auto mt-[-2vh]">
-            <h3 className="text-xl mt-[1vh] text-gray-500 font-light text-center">Tech Stack</h3>
+            <h3 className="text-xl mt-[1vh] text-gray-500 font-light text-center">Experience</h3>
             <TechStacks className="mt-[0.5vh]" />
           </section>
 
