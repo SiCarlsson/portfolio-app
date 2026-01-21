@@ -23,7 +23,7 @@ const About = () => {
           <section className="w-[90%] mx-auto">
             <h3 className="text-xl mt-[1vh] text-gray-500 font-light text-center">Background</h3>
             <p className="mx-auto mt-[0.5vh] text-sm text-justify text-gray-700">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              I'm a recent graduate with a Bachelor's degree in Economics and completing my second Bachelor's in Computer Engineering in June 2026. My background combines analytical thinking from economics with technical skills in programming and systems design. I'm passionate about leveraging data to solve real-world problems and am particularly interested in data analysis, automation, and infrastructure. Currently exploring opportunities in data engineering and analytics where I can apply both my technical and analytical expertise.
             </p>
           </section>
 

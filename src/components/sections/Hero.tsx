@@ -7,7 +7,7 @@ const Hero = () => {
     <SectionWrapper id="hero" className="bg-white flex flex-col justify-between">
       <div className="mt-[25vh]">
         <h1 className="text-7xl font-bold tracking-tight">Simon Carlsson</h1>
-        <h3 className="text-2xl mt-[1vh] text-gray-500 font-light">Computer engineering student passionate about data and automation.</h3>
+        <h3 className="text-2xl mt-[1vh] text-gray-500 font-light">Computer Engineering & Economics graduate aspiring to work with data and automation.</h3>
       </div>
 
       <ScrollArrow href="#about" />
