@@ -6,7 +6,7 @@ import { faFilePdf, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 const SOCIAL_LINKS = [
   { href: "https://www.linkedin.com/in/simonalexcarlsson/", icon: faLinkedin, label: "LinkedIn" },
   { href: "https://github.com/SiCarlsson", icon: faGithub, label: "Github" },
-  { href: "mailto:simon@example.com", icon: faEnvelope, label: "Email" },
+  { href: "mailto:simonalexcarlsson@gmail.com", icon: faEnvelope, label: "Email" },
   { href: "/CV_SimonCarlsson.pdf", icon: faFilePdf, label: "Resume" },
 ]
 
