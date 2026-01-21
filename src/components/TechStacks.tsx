@@ -40,16 +40,16 @@ export const TECH_ICON_MAP: Record<string, React.ComponentType<{ size?: number }
 }
 
 const DEFAULT_TECH_STACK = [
+  "Python",
+  "Java",
+  "Docker",
+  "Ansible",
+  "Terraform",
+  "PostgreSQL",
   "React",
   "JavaScript",
   "TypeScript",
   "Tailwind",
-  "Python",
-  "Java",
-  "PostgreSQL",
-  "Docker",
-  "Ansible",
-  "Terraform",
 ]
 
 const TechStacks = ({ technologies = DEFAULT_TECH_STACK, className, showLabels = true }: TechStacksProps) => {

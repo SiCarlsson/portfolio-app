@@ -32,7 +32,7 @@ const projects: Project[] = [
     imageSrc: undefined,
     techStack: ["Bash", "Proxmox", "Ansible", "Docker", "Terraform"],
     githubLink: "https://github.com/SiCarlsson/homelab-infrastructure",
-    liveLink: "https://simoncarlsson.se/homelab",
+    liveLink: undefined,
   },
 ]
 
