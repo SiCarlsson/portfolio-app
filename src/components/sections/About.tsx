@@ -12,7 +12,7 @@ const About = () => {
         <div>
           <HeadshotImg
             src={headshotImage}
-            className="w-[22vh] md:max-w-xl h-[22vh] md:max-h-xl mx-auto mt-[2vh] md:mt-3"
+            className="w-[22vh] md:max-w-xl h-[22vh] md:max-h-xl mx-auto md:mt-3"
             objectPosition="center 20%"
           />
           <h2 className="text-3xl md:text-4xl font-bold text-center mt-[1vh] px-4">
@@ -28,14 +28,14 @@ const About = () => {
             </p>
           </section>
 
-          <section className="mx-auto md:mt-0 md:max-w-lg">
+          <section className="mx-auto mt-[-2vh] md:mt-0 md:max-w-lg">
             <h3 className="text-lg md:text-2xl mt-[1vh] md:mt-7 text-gray-500 font-light text-center">Experience</h3>
             <TechStacks className="mt-[0.5vh]" />
           </section>
 
-          <ScrollArrow href="#projects" className="block mt-[3vh] md:mt-12" />
+          <ScrollArrow href="#projects" className="hidden md:block mt-[3vh] md:mt-12" />
 
-          <footer className="mb-[3vh] md:w-[50%] md:mx-auto">
+          <footer className="w-[90%] mx-auto md:w-[50%]">
             <SocialLinks />
           </footer>
         </div>

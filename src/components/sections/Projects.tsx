@@ -39,7 +39,7 @@ const projects: Project[] = [
 const Projects = () => {
   return (
     <SectionWrapper id="projects">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mt-[2vh] md:mt-3 mb-[2vh] md:mb-3">
+      <h2 className="text-3xl md:text-4xl font-bold text-center md:mt-3 mb-[2vh] md:mb-3">
         Projects
       </h2>
       <div className="w-full px-[2vw] md:max-w-4xl md:mx-auto md:max-h-full">

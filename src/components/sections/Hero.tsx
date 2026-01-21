@@ -12,7 +12,7 @@ const Hero = () => {
 
       <ScrollArrow href="#about" className="md:mt-[8vh]" />
 
-      <footer className="flex justify-center gap-8 md:gap-24 mb-[3vh] md:text-xl">
+      <footer className="flex justify-center gap-8 md:gap-24 md:text-xl">
         <Button href="#about" className="w-20 text-center">
           About
         </Button>
