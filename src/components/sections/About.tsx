@@ -1,6 +1,7 @@
 import TechStacks from "../TechStacks"
 import HeadshotImg from "../HeadshotImg"
 import SocialLinks from "../SocialLinks"
+import ScrollArrow from "../ScrollArrow"
 import SectionWrapper from "../SectionWrapper"
 import headshotImage from "../../img/headshot.jpg"
 
@@ -11,28 +12,30 @@ const About = () => {
         <div>
           <HeadshotImg
             src={headshotImage}
-            className="w-[22vh] h-[22vh] mx-auto mt-[2vh]"
+            className="w-[22vh] md:max-w-xl h-[22vh] md:max-h-xl mx-auto mt-[2vh] md:mt-3"
             objectPosition="center 20%"
           />
-          <h2 className="text-3xl font-bold text-center mt-[1vh] mb-[1vh]">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mt-[1vh] px-4">
             About Me
           </h2>
         </div>
 
-        <div className="flex flex-col justify-between flex-1">
+        <div className="flex flex-col justify-between flex-1 md:w-[80%] md:min-w-2xl md:max-w-4xl md:mx-auto">
           <section className="w-[90%] mx-auto">
-            <h3 className="text-xl mt-[1vh] text-gray-500 font-light text-center">Background</h3>
-            <p className="mx-auto mt-[0.5vh] text-sm text-justify text-gray-700">
-              I'm a recent graduate with a Bachelor's degree in Economics and completing my second Bachelor's in Computer Engineering in June 2026. My background combines analytical thinking from economics with technical skills in programming and systems design. I'm passionate about leveraging data to solve real-world problems and am particularly interested in data analysis, automation, and infrastructure. Currently exploring opportunities in data engineering and analytics where I can apply both my technical and analytical expertise.
+            <h3 className="text-lg md:text-2xl mt-[1vh] text-gray-500 font-light text-center">Background</h3>
+            <p className="mx-auto mt-[0.5vh] text-sm md:text-xl text-justify text-gray-700 break-words">
+              I'm a recent Economics graduate completing my second Bachelor's in Computer Engineering in June 2026. My background combines analytical thinking with technical skills in programming and systems design. I'm passionate about leveraging data to solve real-world problems and am particularly interested in data engineering, automation, and infrastructure.
             </p>
           </section>
 
-          <section className="w-[90%] mx-auto mt-[-2vh]">
-            <h3 className="text-xl mt-[1vh] text-gray-500 font-light text-center">Experience</h3>
+          <section className="mx-auto md:mt-0 md:max-w-lg">
+            <h3 className="text-lg md:text-2xl mt-[1vh] md:mt-7 text-gray-500 font-light text-center">Experience</h3>
             <TechStacks className="mt-[0.5vh]" />
           </section>
 
-          <footer className="mb-[3vh]">
+          <ScrollArrow href="#projects" className="block mt-[3vh] md:mt-12" />
+
+          <footer className="mb-[3vh] md:w-[50%] md:mx-auto">
             <SocialLinks />
           </footer>
         </div>

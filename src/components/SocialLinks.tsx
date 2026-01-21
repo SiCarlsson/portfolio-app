@@ -16,7 +16,7 @@ interface socialLinksProps {
 
 const SocialLinks = ({ className }: socialLinksProps) => {
   return (
-    <div className={`flex items-center justify-between ${className}`}>
+    <div className={`flex items-center justify-center gap-8 md:gap-24 md:text-xl ${className}`}>
       {SOCIAL_LINKS.map((link) => (
         <Button
           key={link.label}
@@ -24,7 +24,7 @@ const SocialLinks = ({ className }: socialLinksProps) => {
           className="w-20 text-center"
         >
           <div className="flex flex-col items-center gap-1">
-            <FontAwesomeIcon icon={link.icon} className="text-xl mb-[-0.5vh]" />
+            <FontAwesomeIcon icon={link.icon} className="text-xl md:text-2xl mb-[-0.5vh] md:mb-0" />
             <span>{link.label}</span>
           </div>
         </Button>
