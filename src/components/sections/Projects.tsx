@@ -48,15 +48,13 @@ const Projects = () => {
             <Dialog key={project.name}>
               <DialogTrigger asChild>
                 <div className="cursor-pointer border border-gray-400 rounded-lg bg-white p-5 transition-all duration-200 hover:shadow-lg hover:scale-[1.02] hover:border-gray-600 hover:bg-gray-50 group">
-                  <div className="flex items-start justify-between gap-3">
-                    <div className="flex-1">
-                      <h3 className="text-xl md:text-2xl font-bold mb-[0.5vh] group-hover:text-blue-700 transition-colors">{project.name}</h3>
-                      <p className="text-gray-700 text-sm md:text-lg">{project.shortDescription}</p>
-                    </div>
-                    <span className="text-gray-400 text-xs md:text-sm whitespace-nowrap mt-1 group-hover:text-blue-700 transition-colors">
+                  <div className="flex items-center justify-between gap-3 mb-[0.5vh]">
+                    <h3 className="text-xl md:text-2xl font-bold group-hover:text-blue-700 transition-colors">{project.name}</h3>
+                    <span className="text-gray-400 text-xs md:text-sm whitespace-nowrap group-hover:text-blue-700 transition-colors">
                       Click to view →
                     </span>
                   </div>
+                  <p className="text-gray-700 text-sm md:text-lg">{project.shortDescription}</p>
                 </div>
               </DialogTrigger>
               <DialogContent className="w-screen h-screen max-w-none max-h-none md:max-w-4xl md:max-h-[90%] overflow-y-auto p-8 flex flex-col">
