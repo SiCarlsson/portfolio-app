@@ -1,6 +1,8 @@
 # Portfolio Website
 
-A modern, responsive portfolio page to highlight my skillset and projects.
+A modern, responsive portfolio page to highlight my skillset and projects. Deployed using GitHub pages and GitHub Actions.
+
+🌐 **Live Site**: [www.simoncarlsson.se](https://www.simoncarlsson.se)
 
 ## 🛠️ Tech Stack
 
@@ -10,6 +12,8 @@ A modern, responsive portfolio page to highlight my skillset and projects.
 - **UI Components**: shadcn/ui
 - **Icons**: Font Awesome, React Icons
 - **Containerization**: Docker, Docker Compose
+- **GitHub Pages**: Deployment of application
+- **GitHub Actions**: CI/CD, automatically updates deployed codebase
 
 ## 🐳 Docker Deployment
 
@@ -34,10 +38,3 @@ docker build -t portfolio-app .
 # Run
 docker run -d -p 8080:80 --name portfolio portfolio-app
 ```
-
-## 👤 Author
-
-**Simon Carlsson**
-
-- LinkedIn: [simonalexcarlsson](https://www.linkedin.com/in/simonalexcarlsson/)
-- GitHub: [@SiCarlsson](https://github.com/SiCarlsson)
