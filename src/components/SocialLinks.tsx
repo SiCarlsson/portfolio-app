@@ -21,9 +21,9 @@ const SocialLinks = ({ className }: socialLinksProps) => {
         <Button
           key={link.label}
           href={link.href}
-          className="w-20 text-center"
+          className="w-20 text-center group"
         >
-          <div className="flex flex-col items-center gap-1">
+          <div className="flex flex-col items-center gap-1 transition-all duration-200 group-hover:scale-110 group-hover:text-blue-700">
             <FontAwesomeIcon icon={link.icon} className="text-xl md:text-2xl mb-[-0.5vh] md:mb-0" />
             <span>{link.label}</span>
           </div>

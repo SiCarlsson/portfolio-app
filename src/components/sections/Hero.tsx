@@ -13,14 +13,14 @@ const Hero = () => {
       <ScrollArrow href="#about" className="md:mt-[8vh]" />
 
       <footer className="flex justify-center gap-8 md:gap-24 md:text-xl">
-        <Button href="#about" className="w-20 text-center">
-          About
+        <Button href="#about" className="w-20 text-center group">
+          <span className="underline underline-offset-4 transition-all duration-200 group-hover:scale-110 group-hover:text-blue-700 inline-block">About</span>
         </Button>
-        <Button href="#projects" className="w-20 text-center">
-          Projects
+        <Button href="#projects" className="w-20 text-center group">
+          <span className="underline underline-offset-4 transition-all duration-200 group-hover:scale-110 group-hover:text-blue-700 inline-block">Projects</span>
         </Button>
-        <Button href="/CV_SimonCarlsson.pdf" className="w-20 text-center">
-          Resume
+        <Button href="/CV_SimonCarlsson.pdf" className="w-20 text-center group">
+          <span className="underline underline-offset-4 transition-all duration-200 group-hover:scale-110 group-hover:text-blue-700 inline-block">Resume</span>
         </Button>
       </footer>
     </SectionWrapper>

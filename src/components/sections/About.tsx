@@ -1,7 +1,6 @@
 import TechStacks from "../TechStacks"
 import HeadshotImg from "../HeadshotImg"
 import SocialLinks from "../SocialLinks"
-import ScrollArrow from "../ScrollArrow"
 import SectionWrapper from "../SectionWrapper"
 import headshotImage from "../../img/headshot.jpg"
 
