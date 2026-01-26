@@ -6,7 +6,7 @@ import ScrollIndicator from "./components/ScrollIndicator"
 const App = () => {
   return (
     <>
-      <div className="h-[100dvh] overflow-y-scroll snap-y snap-mandatory snap-container">
+      <div className="h-[100dvh] overflow-y-scroll snap-y snap-mandatory md:snap-none snap-container">
         <Hero />
         <About />
         <Projects />

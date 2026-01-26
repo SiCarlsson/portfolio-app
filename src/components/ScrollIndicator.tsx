@@ -21,7 +21,7 @@ const ScrollIndicator = () => {
   }, [])
 
   return (
-    <div className="fixed right-2 md:right-6 top-1/2 -translate-y-1/2 h-[60vh] w-1 bg-gray-200 rounded-full z-50">
+    <div className="fixed right-2 md:right-6 top-1/2 -translate-y-1/2 h-[60vh] w-1 bg-gray-200 rounded-full z-50 md:hidden">
       <div
         className="w-full bg-gray-700 rounded-full transition-all duration-200"
         style={{ height: `${scrollProgress}%` }}

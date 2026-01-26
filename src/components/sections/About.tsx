@@ -28,12 +28,10 @@ const About = () => {
             </p>
           </section>
 
-          <section className="mx-auto mt-[-2vh] md:mt-0 md:max-w-lg">
+          <section className="mx-auto mt-[-2vh] md:mt-[-4vh] md:max-w-lg">
             <h3 className="text-lg md:text-2xl mt-[1vh] md:mt-7 text-gray-500 font-light text-center">Experience</h3>
             <TechStacks className="mt-[0.5vh]" />
           </section>
-
-          <ScrollArrow href="#projects" className="hidden md:block mt-[3vh] md:mt-12" />
 
           <footer className="w-[90%] mx-auto md:w-[50%]">
             <SocialLinks />
