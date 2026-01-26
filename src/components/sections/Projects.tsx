@@ -34,6 +34,15 @@ const projects: Project[] = [
     githubLink: "https://github.com/SiCarlsson/homelab-infrastructure",
     liveLink: undefined,
   },
+  {
+    name: "Portfolio Website",
+    shortDescription: "A responsive portfolio website built with React and TypeScript.",
+    description: "The website you're currently viewing!\n\nA fully responsive single-page portfolio application designed to showcase my projects and skills. Built with modern web technologies including React and TypeScript, featuring animations, interactive UI components, and mobile-first design.\n\nThe site is automatically deployed to GitHub Pages using CI/CD pipelines, with containerization support via Docker for flexible deployment options. The project demonstrates front-end development skills, responsive design principles, and modern DevOps practices.",
+    imageSrc: undefined,
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Vite", "Docker"],
+    githubLink: "https://github.com/SiCarlsson/portfolio-app",
+    liveLink: "https://www.simoncarlsson.se",
+  },
 ]
 
 const Projects = () => {
@@ -63,11 +72,13 @@ const Projects = () => {
                     <DialogTitle className="text-3xl md:text-5xl mb-3 md:mb-6">{project.name}</DialogTitle>
                   </DialogHeader>
 
-                  <img
-                    src={project.imageSrc || "https://placehold.co/600x400"}
-                    alt={project.name}
-                    className="w-full rounded-lg mb-3 md:mb-6"
-                  />
+                  {project.imageSrc && (
+                    <img
+                      src={project.imageSrc}
+                      alt={project.name}
+                      className="w-full rounded-lg mb-3 md:mb-6"
+                    />
+                  )}
 
                   <DialogDescription className="text-sm md:text-lg text-gray-700 whitespace-pre-line text-justify w-[99%] mx-auto">
                     {project.description}
