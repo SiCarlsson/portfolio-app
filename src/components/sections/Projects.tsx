@@ -26,6 +26,15 @@ export interface Project {
 
 const projects: Project[] = [
   {
+    name: "SHL Data Insights",
+    shortDescription: "A data analytics platform for the Swedish Hockey League (SHL).",
+    description: "⚠️ UNDER CONSTRUCTION ⚠️\n\nA data analytics platform being developed for the Swedish Hockey League (SHL), which will provide insights and visualizations to help understand the league's performance and trends. The platform will be built with modern web technologies and data processing tools, featuring interactive dashboards, real-time data updates, and advanced analytics capabilities.",
+    imageSrc: undefined,
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Next.js", "PostgreSQL", "Docker"],
+    githubLink: "https://github.com/SiCarlsson/shl-data-insights",
+    liveLink: undefined,
+  },
+  {
     name: "Homelab",
     shortDescription: "Infrastructure as Code homelab running self-hosted services on Proxmox VE.",
     description: "A fully automated homelab infrastructure using Infrastructure as Code principles. The setup leverages Proxmox VE for virtualization, Terraform for VM provisioning, and Ansible for service deployment and configuration management.\n\nThe entire infrastructure is reproducible and version-controlled, with automated setup scripts and Makefile commands for easy deployment and management. This project demonstrates practical DevOps skills including infrastructure automation, containerization, networking, and systems administration.",

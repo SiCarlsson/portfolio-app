@@ -16,6 +16,7 @@ import {
   SiProxmox,
   SiJavascript,
   SiVite,
+  SiNextdotjs,
 } from "react-icons/si"
 
 interface TechStacksProps {
@@ -40,6 +41,7 @@ export const TECH_ICON_MAP: Record<string, React.ComponentType<{ size?: number }
   "Terraform": SiTerraform,
   "Proxmox": SiProxmox,
   "Vite": SiVite,
+  "Next.js": SiNextdotjs,
 }
 
 const DEFAULT_TECH_STACK = [
