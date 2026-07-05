@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A modern, responsive portfolio page to highlight my skillset and projects. Deployed using GitHub pages and GitHub Actions.
+A portfolio page to highlight my skillset, experience and projects. Deployed using GitHub pages and GitHub Actions.
 
 🌐 **Live Site**: [www.simoncarlsson.se](https://www.simoncarlsson.se)
 
